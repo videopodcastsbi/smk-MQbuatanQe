@@ -522,13 +522,13 @@
       font-size: 14px;
       margin-top: 10px;
       display: flex;
-      margin-left: 450px;
+      margin-inline: 50px;
     }
     
     .keterangan {
       font-family: Arial, sans-serif;
       margin: 20px;
-  
+      margin-inline: 15px;
     }
     
     .keterangan h3 {
@@ -536,14 +536,14 @@
       color: #18A558; 
       font-weight: bold;
       margin: 15px;
-      margin-left: 450px;
+      margin-inline: 50px;
     }
     
     .keterangan ol {
       margin-left: 160px;
       font-size: 15px;
       color: #2b2b2b; 
-      margin-left: 450px;
+      margin-inline: 50px;
     }
     
     .keterangan ol li {
@@ -715,7 +715,13 @@
       flex-direction: column;
     }
   
+    .deskripsi1 img, .deskripsi2 img, .deskripsi3 img, .deskripsi4 img {
+      width: 100%;
+    }
   
+    .imgkegiatan{
+      flex-direction: column;
+    }
     
   }
   
@@ -747,6 +753,14 @@
       padding: 10px;
       gap: 10px;
     }
+
+    .deskripsi1 img, .deskripsi2 img, .deskripsi3 img, .deskripsi4 img {
+      width: 100%;
+    }
+  
+    .imgkegiatan{
+      flex-direction: column;
+    }
   }
   
   /* HP Kecil */
@@ -777,14 +791,6 @@
     .feature-container {
       flex-direction: column;
       gap: 10px;
-    }
-  
-    .deskripsi1 img, .deskripsi2 img, .deskripsi3 img, .deskripsi4 img {
-      width: 100%;
-    }
-  
-    .imgkegiatan{
-      flex-direction: column;
     }
   
     .fasilitas-smk h2 {
