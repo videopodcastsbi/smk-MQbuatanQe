@@ -16,7 +16,7 @@
   }
   
   .logo img {
-    height: 50px;
+    height: 5opx;
     margin-right: 10px;
   }
   
@@ -764,7 +764,7 @@
   }
   
   /* HP Kecil */
-  @media (max-width: 425px) {
+  @media (min-width: 425px) {
     body {
       font-size: 14px;
     }
